@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070BF8611FFBEBDC0026B9AF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 070BF8601FFBEBDC0026B9AF /* README.md */; };
 		7AE28FD31DD10D6900A663ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE28FD21DD10D6900A663ED /* AppDelegate.swift */; };
 		7AE28FD51DD10D6900A663ED /* AudioFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE28FD41DD10D6900A663ED /* AudioFileViewController.swift */; };
 		7AE28FD81DD10D6900A663ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE28FD61DD10D6900A663ED /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070BF8601FFBEBDC0026B9AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		7AE28FCF1DD10D6900A663ED /* Speech to Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech to Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE28FD21DD10D6900A663ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE28FD41DD10D6900A663ED /* AudioFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFileViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		7AE28FD11DD10D6900A663ED /* Speech to Text */ = {
 			isa = PBXGroup;
 			children = (
+				070BF8601FFBEBDC0026B9AF /* README.md */,
 				7AE28FD21DD10D6900A663ED /* AppDelegate.swift */,
 				7AE28FD91DD10D6900A663ED /* Assets.xcassets */,
 				7AE28FD41DD10D6900A663ED /* AudioFileViewController.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				7AE28FDD1DD10D6900A663ED /* LaunchScreen.storyboard in Resources */,
 				7AE28FDA1DD10D6900A663ED /* Assets.xcassets in Resources */,
+				070BF8611FFBEBDC0026B9AF /* README.md in Resources */,
 				7AE28FEB1DD1214000A663ED /* SpeechSample.wav in Resources */,
 				7AE28FD81DD10D6900A663ED /* Main.storyboard in Resources */,
 			);
