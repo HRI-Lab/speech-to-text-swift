@@ -22,7 +22,8 @@
  * limitations under the License.
  **/
 
-struct Credentials {
-    static let SpeechToTextUsername = ""
-    static let SpeechToTextPassword = ""
-}
+//struct Credentials {
+//    static let SpeechToTextUsername = ""
+//    static let SpeechToTextPassword = ""
+//}
+

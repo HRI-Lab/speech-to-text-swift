@@ -55,7 +55,7 @@ class AudioFileViewController: UIViewController, AVAudioPlayerDelegate {
 
     @IBAction func didPressTranscribeButton(_ sender: UIButton) {
         var settings = RecognitionSettings(contentType: .wav)
-        settings.interimResults = true
+        //settings.interimResults = true
         let failure = { (error: Error) in print(error) }
         speechToText.recognize(audio: speechSample, settings: settings, failure: failure) {
             results in
