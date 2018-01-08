@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		070BF8611FFBEBDC0026B9AF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 070BF8601FFBEBDC0026B9AF /* README.md */; };
+		07D285C220041823004042B6 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D285C120041823004042B6 /* Credentials.swift */; };
 		7AE28FD31DD10D6900A663ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE28FD21DD10D6900A663ED /* AppDelegate.swift */; };
 		7AE28FD51DD10D6900A663ED /* AudioFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE28FD41DD10D6900A663ED /* AudioFileViewController.swift */; };
 		7AE28FD81DD10D6900A663ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE28FD61DD10D6900A663ED /* Main.storyboard */; };
@@ -15,12 +16,12 @@
 		7AE28FDD1DD10D6900A663ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE28FDB1DD10D6900A663ED /* LaunchScreen.storyboard */; };
 		7AE28FE81DD1108500A663ED /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE28FE61DD1108500A663ED /* SpeechToTextV1.framework */; };
 		7AE28FEB1DD1214000A663ED /* SpeechSample.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AE28FEA1DD1214000A663ED /* SpeechSample.wav */; };
-		7AE28FED1DD121CE00A663ED /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE28FEC1DD121CE00A663ED /* Credentials.swift */; };
 		7AE28FEF1DD128D400A663ED /* MicrophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE28FEE1DD128D400A663ED /* MicrophoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		070BF8601FFBEBDC0026B9AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		07D285C120041823004042B6 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		7AE28FCF1DD10D6900A663ED /* Speech to Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech to Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE28FD21DD10D6900A663ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE28FD41DD10D6900A663ED /* AudioFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFileViewController.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		7AE28FDE1DD10D6900A663ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE28FE61DD1108500A663ED /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
 		7AE28FEA1DD1214000A663ED /* SpeechSample.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpeechSample.wav; sourceTree = "<group>"; };
-		7AE28FEC1DD121CE00A663ED /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		7AE28FEE1DD128D400A663ED /* MicrophoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +49,7 @@
 		7AE28FC61DD10D6900A663ED = {
 			isa = PBXGroup;
 			children = (
+				07D285C120041823004042B6 /* Credentials.swift */,
 				7AE28FD11DD10D6900A663ED /* Speech to Text */,
 				7AE28FD01DD10D6900A663ED /* Products */,
 				7AE28FE41DD1108500A663ED /* Frameworks */,
@@ -70,7 +71,6 @@
 				7AE28FD21DD10D6900A663ED /* AppDelegate.swift */,
 				7AE28FD91DD10D6900A663ED /* Assets.xcassets */,
 				7AE28FD41DD10D6900A663ED /* AudioFileViewController.swift */,
-				7AE28FEC1DD121CE00A663ED /* Credentials.swift */,
 				7AE28FDE1DD10D6900A663ED /* Info.plist */,
 				7AE28FDB1DD10D6900A663ED /* LaunchScreen.storyboard */,
 				7AE28FD61DD10D6900A663ED /* Main.storyboard */,
@@ -182,8 +182,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE28FEF1DD128D400A663ED /* MicrophoneViewController.swift in Sources */,
-				7AE28FED1DD121CE00A663ED /* Credentials.swift in Sources */,
 				7AE28FD51DD10D6900A663ED /* AudioFileViewController.swift in Sources */,
+				07D285C220041823004042B6 /* Credentials.swift in Sources */,
 				7AE28FD31DD10D6900A663ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
