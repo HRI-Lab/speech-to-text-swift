@@ -23,6 +23,6 @@
  **/
 
 struct Credentials {
-    static let SpeechToTextUsername = ""
-    static let SpeechToTextPassword = ""
+    static let SpeechToTextUsername = "ea1db480-2b77-4211-a899-342d2f5c2eb2"
+    static let SpeechToTextPassword = "z24fVkCycPsw"
 }
